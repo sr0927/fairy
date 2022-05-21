@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <title>殺氣童話-家族拍賣登記表</title>
+</head>
+<body>
+    <div class="banner">
+        <img src="img/bg.PNG" alt="">
+    </div>
+    <div class="wrap">
+        <div class="container">
+            <h1>殺氣童話<br><span>家族拍賣登記表</span></h1>
+            <form>
+                <label for="">遊戲ID：</label>
+                <input type="text" id="name">
+                <label for="">LINE ID：</label>
+                <input type="text" id="line">
+                <label for="">DC ID：</label>
+                <input type="text" id="dc">
+                <label for="">下標物資：</label>
+                <select name="" id="item">
+                    <option value="" disabled selected value></option>
+                    <option value="百里令">百里令</option>
+                    <option value="卓越令">卓越令</option>
+                    <option value="武器">武器</option>
+                    <option value="衣服">衣服</option>
+                    <option value="附魔石">附魔石</option>
+                </select>
+                <label for="">下標數量：</label>
+                <input type="number" id="itemQuantity">
+                <label for="">下標時段：</label>
+                <select name="" id="time">
+                    <option value="" disabled selected value></option>
+                    <option value="名俠講武-12:30" class="getitem4">名俠講武-12:30</option>
+                    <option value="名俠講武-19:00" class="getitem4">名俠講武-19:00</option>
+                    <option value="家族關卡-21:00" class="getitem5">家族關卡-21:00</option>
+                    <option value="三才首領-21:30" class="getitem3">三才首領-21:30</option>
+                </select>
+                <button id="sign_btn">登記</button>
+            </form>
+        </div>    
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
